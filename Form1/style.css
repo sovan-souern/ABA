@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to right,rgb(76, 26, 192), rgb(113, 235, 113));
+}
+header{
+    width: 50%;
+    padding: 70px;
+    background-color: #1fb4da;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+ header main{
+    width: 300px;
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+    padding: 64px;
+}
+main form .head{
+    width: 100%;
+    padding: 10px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+main form .head input{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+main form button{
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right,rgb(76, 26, 192), rgb(113, 235, 113));
+}

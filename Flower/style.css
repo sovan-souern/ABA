@@ -1,0 +1,84 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 100px;
+    background-color: #fff;
+
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.nav .logo h1{
+    font-weight: 600px;
+    font-family: sans-serif;
+    color: black;
+}
+.nav .logo b{
+    color: orange;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+    font-family: sans-serif;
+    font-size: 17px;
+
+}
+.nav ul .active::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: rgb(236, 93, 40);
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600px;
+}
+.signIn{
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+}
+.signup{
+    background-color: rgb(218, 90, 44);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.content .content-left .info{
+    display: block;
+    width: 100%;
+    flex-direction: column;
+}
+.content .content-left .info h2{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}

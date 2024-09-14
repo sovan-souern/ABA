@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Moul&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", system-ui;
+    background: rgb(90, 81, 95);
+}
+.container{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 56px;
+    border-radius: 20px;
+    font-family: Arial;
+}
+.container section.head{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('https://www.ioimp.com.my/data/images/item/221107_img_WhatsApp_Image_2024_06_14_at_5.28.49_PM_1_.jpeg');
+}
+.container section.head h4{
+    color: white;
+    font-family: sans-serif;
+   font-size: 20px;
+   margin-bottom: 300px;
+   margin-right: 246px;
+   background: rgba(253, 251, 251, 0.5);
+   color: rgb(168, 3, 31);
+   padding: 20px 50px;
+
+}
+.container section.heading{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    border-right: 20px;
+    border-radius: 0 15px 15px 0;
+
+}
+.container section.heading .content{
+    padding: 14px;
+    margin-top: 20px;
+}
+.container section.heading form{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.container section.heading form .form input{
+    display: flex;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 10PX;
+    border: solid 1px rgb(175, 170, 170);
+    outline: none;
+    margin: 10px 0;
+}
+.container section.heading .content img{
+    width: 120px;
+    margin-left: 125px;
+}
+.container section.heading form h2{
+    font-size: 15px;
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    width: 92%;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    background: rgb(168, 3, 31);
+    color: white;
+
+}
+button:hover{
+    background-color: black;
+}
+.container section.heading form .input{
+    display: flex;
+    width: 100px;
+    align-items: center;
+}
+.container section.heading form .input input{
+    margin-right: 12px;
+}
+p{
+    color: rgb(168, 3, 31);
+    text-align: center;
+}

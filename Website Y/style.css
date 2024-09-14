@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  width: 100%;
+  margin-top: 20px;
+}
+nav .logo-container{
+  width: 97%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-image img{
+  width: 50px;
+  height: 50px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo-image{
+  display: flex;
+  align-items: center;
+}
+.search-content input{
+  width: 500px;
+  padding: 10px;
+  border-radius: 40px;
+  border: 1px solid #ddd;
+  font-size: 20px;
+}
+.search-content{
+  display: flex;
+  align-items: center;
+}
+.icon{
+  background: none;
+  border: none;
+  position: relative;
+  right: 50px;
+  top: 6px;
+}
+.mic{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: none;
+  position: relative;
+  right: 20px;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.profile .item{
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border: solid 1px #ddd;
+  border-radius: 20px;
+  color: blue;
+}
+aside{
+  width: 97%;
+  margin: auto;
+}
+.side-item{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll ;
+  margin-top: 10px;
+} 
+.Items{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.Items i{
+  margin-right: 20px;
+}
+.Items:hover{
+  background-color: gray;
+  border-radius: 20px;
+  padding: 10px;
+}
+.main-contant{
+  display: flex;
+  flex: 12;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  /* padding: 10px; */
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+.card{
+  width: 30%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+}
+.main-video{
+  flex: 3;
+}
+.main-text{
+  display: flex;
+  flex: 1;
+  gap: 15px;
+  font-size: 15px;
+}
+img{
+  width: 30px; 
+  height: 30px;
+  object-fit: cover; 
+  border-radius: 100px;
+}
+.main-text-post{
+  display: flex;
+  flex-direction: column;
+}
+.h5{
+  display: flex;
+  gap: 20px;
+}
+.h5 ,h5{
+  color: #2422226f;
+}
+iframe{
+  border-radius: 10px;
+}
+.login{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.btn{
+  width: 100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  margin-right: 50px;
+}
+.btn i{
+  margin-right: 20px;
+}

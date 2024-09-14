@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background: #d8d8d8;
+}
+header{
+    width: 100%;
+    background: rgb(0, 140, 255);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+ul {
+    display: flex;
+    padding: 12px;
+}
+ul li a{
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+header nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav:first-child ul li a{
+    font-size: 12px;
+}
+header nav .option-select select{
+    background: none;
+    color: white;
+    border:
+     none;
+     font-family: "Roboto", sans-serif;
+     font-size: 12px;
+}
+header nav:nth-child(2){
+    box-sizing: border-box;
+    padding: 12px 24px 0px 0px;
+}
+
+header nav .option-select select option{
+    color: black;
+}
+
+header nav form{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+header nav form input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+header nav form select{
+    padding: 12px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background: #e9e9e9;
+    border-top-left-radius: 38px;
+    border-bottom-left-radius: 38px;
+}
+header nav form button{
+    padding: 8px 14px;
+    border-top-right-radius: 38px;
+    border-bottom-right-radius: 38px;
+    border: none;
+    background: rgb(255, 213, 0);
+}
+header nav:last-child ul{
+    margin-left: -24px;
+}
+header nav:nth-child(2) div.shopping-cart{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+li.notification{
+    position: relative;
+}
+ul li span.num{
+    position: absolute;
+    background: rgb(253, 106, 106);
+    padding: 2px 4px;
+    top: -16px;
+    border-radius: 1000px;
+    font-size: 12px;
+    right: 0;
+}
+
+header nav:nth-child(2) div.shopping-cart span{
+    font-size: 48px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+aside{
+    margin-top: 12px;
+    width: 25%;
+    height: 96vh;
+    background: white;
+}
+aside .aside-item{
+    box-sizing: border-box;
+    display: flex;
+    padding: 12px;
+    width: 100%;
+    column-gap: 12px;
+    background: white;
+    color: black;
+    align-items: center;
+    border-bottom: solid 1px rgb(240, 240, 240);
+}
+
+#active{
+    background: rgb(255, 213, 0);
+}
+main{
+    height: 10vh;
+    width: 75%;
+    padding: 12px;
+}
+main .product-list{
+    background: white;
+    padding: 12px;
+    color: black;
+}
+.row{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.mt-24{
+    margin-top: 24px;
+}
+.card{
+    position: relative;
+    width: 23%;
+}
+.card img{
+    width: 100%;
+}
+.card span{
+    position: absolute;
+    right: 0;
+    padding: 4px;
+    font-size: 18px;
+    background: #ffe434d1;
+    border-radius: 1000px;
+    margin: 8px;
+}
+.card p{
+    font-size: 12px;    
+}
+.red{
+    color: rgb(255, 61, 61);
+}
+.text-center{
+    text-align: center;
+}
+.m-24{
+    margin: 24px;
+}
+footer{
+    box-sizing: border-box;
+    margin-top: 12px;
+    width: 100%;
+
+    padding: 48px 140px;
+    background: white;
+}
+
+.medias img{
+    width: 30px;
+    margin-top: 12px;
+}
+
+footer .row nav ul li a{
+    color: black;
+}
+footer .row nav ul li span{
+    color: white;
+}
+.align-center{
+    align-items: center;
+}
